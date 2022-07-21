@@ -15,5 +15,5 @@ public interface DealRqService {
     List<LoanOfferDto> getOffers(@RequestBody LoanApplicationRequestDto loanApplicationRequestDto);
 
     @PutMapping("deal/offer")
-    void offerSelection (@RequestBody LoanOfferDto loanOfferDto);
+    void offerSelection(@RequestBody LoanOfferDto loanOfferDto);
 }
